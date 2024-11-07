@@ -32,3 +32,39 @@ body {
 .nav a:hover {
     color: #ee2323; /* Color al pasar el mouse */
 }
+
+/* Sección de información */
+.infoseccion {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.infoseccion h2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+/* Estilos de tabla */
+.tabla {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+.tabla th,.tabla td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+.tabla th {
+    background-color: green;
+    color: white;
+}
+
+.tabla tr:nth-child(even) {
+    background-color: #dbdbdb;
+}
