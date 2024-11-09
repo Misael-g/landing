@@ -68,3 +68,45 @@ body {
 .tabla tr:nth-child(even) {
     background-color: #dbdbdb;
 }
+
+.seccion1 {
+    display: flex;
+    align-items: center;
+    height: 500px;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 50px;
+}
+
+.imagen1{
+    border-radius: 0cqw;
+}
+
+.descripcion1 {
+    background: steelblue;
+    border: 101px;
+    margin: 50px;
+    border-radius: 50px;
+    text-align: center;
+    color: white;
+}
+
+.title2{
+    color: black;
+
+}
+
+.map-container {
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    height: 500px;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;  
+    margin: 50px; 
+    justify-content: space-between;
+}
