@@ -110,3 +110,62 @@ body {
     margin: 50px; 
     justify-content: space-between;
 }
+/*Estilos SECCION 2*/
+
+body {
+    background-size: cover; /* Cubre toda el área disponible */
+    background-position: center; /* Centra la imagen de fondo */
+    background-attachment: fixed; /* Mantiene la imagen fija al hacer scroll */
+    margin: 0; /* Elimina márgenes del cuerpo */
+    padding: 0; /* Elimina padding del cuerpo */
+    font-family: Arial, sans-serif; /* Fuente utilizada para el texto */
+}
+
+
+/* Sección de sobre nosotros */
+.seccion-ventajas {
+    display: flex; /* Utiliza flexbox para las secciones */
+    align-items: center; /* Centra verticalmente los elementos */
+    padding: 50px; /* Espaciado interno */
+}
+
+.imagen-ventajas {
+    flex: 1; /* Cada imagen ocupa igual espacio */
+}
+
+.imagen-ventajas img {
+    width: 80%; /* Ancho completo de la imagen */
+    text-align: right;
+    border-radius: 40px; /* Bordes redondeados */
+    padding-left: 100px;
+}
+.contenido-ventajas {
+    flex: 1; /* Cada contenido ocupa igual espacio */
+    text-align: left; /* Alinea el texto a la izquierda */
+    background-color:rgba(11, 162, 238, 0.548);
+    border-radius: 40px;
+}
+
+
+.contenido-ventajas h2 {
+    font-size: 40px; 
+    color: #000000; 
+    text-align: left; /* Centra el texto */
+    padding-left: 10px;
+}
+
+.contenido-ventajas p {
+    text-align: left; 
+    color: white; 
+    font-size: 20px; 
+    padding-left: 10px;
+}
+
+.seccion-ventajas {
+    flex-direction: row; /* Asegura que el texto esté a la izquierda y la imagen a la derecha */
+}
+
+.seccion-ventajas {
+    background-color: rgba(44, 62, 80, 0.7);
+    background-blend-mode: overlay; /* Mezcla de fondo */
+}
