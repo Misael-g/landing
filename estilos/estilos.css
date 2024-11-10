@@ -83,12 +83,14 @@ body {
     margin: 50px;
 }
 
-.imagen1{
-    border-radius: 0cqw;
+section div img{
+    height: 400px;
+    width: 500px;
+    border-radius: 50px;
 }
 
 .descripcion1 {
-    background: steelblue;
+    background: rgba(11, 162, 238, 0.548);
     border: 101px;
     margin: 50px;
     border-radius: 50px;
@@ -104,6 +106,11 @@ body {
 .map-container {
     justify-content: center;
     margin-top: 10px;
+}
+
+.video1{
+    padding-top: 120px;
+    padding-right: 100px;
 }
 
 .location {
