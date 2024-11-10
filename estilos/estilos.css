@@ -74,6 +74,7 @@ body {
     background-color: #dbdbdb;
 }
 
+/*seccion1*/
 .seccion1 {
     display: flex;
     align-items: center;
@@ -83,12 +84,13 @@ body {
     margin: 50px;
 }
 
+/*formato de la imagen*/
 section div img{
     height: 400px;
     width: 500px;
     border-radius: 50px;
 }
-
+/*texto descriptivo*/
 .descripcion1 {
     background: rgba(11, 162, 238, 0.548);
     border: 101px;
@@ -100,7 +102,6 @@ section div img{
 
 .title2{
     color: black;
-
 }
 
 .map-container {
@@ -108,14 +109,15 @@ section div img{
     margin-top: 10px;
 }
 
+/*Pocicio del video*/
 .video1{
     padding-top: 120px;
     padding-right: 100px;
 }
 
+/*Seccion de ubicacion*/
 .location {
     display: flex;
-    align-items: center;
     height: 500px;
     font-size: x-large;
     font-family: 'Times New Roman', Times, serif;  
