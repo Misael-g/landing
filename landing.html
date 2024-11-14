@@ -7,7 +7,7 @@
 </head>
 <body>
 
-    <header class="header">
+    <header class="header" id="inicio">
         <!-- Logo -->
         <div class="logo">
             <img src="imagenes/logoD.png" >
@@ -15,10 +15,12 @@
         
         <!-- Navegación -->
         <nav class="nav">
-            <a href="#">Inicio</a>
-            <a href="#">Descripción</a>
-            <a href="#">Ventajas y beneficios</a>
-            <a href="#">Inscripción</a>
+            <a href="#inicio">Inicio</a>
+            <a href="#descripcion">Descripción</a>
+            <a href="#ventajas">Ventajas y beneficios</a>
+            <a href="#mapa">Ubicación</a>
+            <a href="#informacion">Información</a>
+            <a href="#formulario">Inscripción</a>
         </nav>
     </header>
 
@@ -28,7 +30,7 @@
         <div class="imagen1">
             <img src="imagenes/joven.avif" alt="Chica" >
         </div>
-        <div class="descripcion1">
+        <div class="descripcion1" id="descripcion">
             <h2 class="title2">Descripcion del curso</h2>
             <p>El curso de Inglés General está diseñado para estudiantes de todos los niveles, 
                 desde principiantes hasta avanzados, que buscan mejorar su competencia en el idioma
@@ -36,7 +38,7 @@
         </div>
     </section>
 <!--Seccion 2-->
- <section class="seccion-ventajas">
+ <section class="seccion-ventajas" id="ventajas">
         <div class="contenido-ventajas">
             <h2>Ventajas y Beneficios</h2>
             <p>
@@ -49,7 +51,7 @@
 
     <!--Ubicacion-->
 
-    <section class="location">
+    <section class="location" id="mapa">
         <div class="map-container">
             <h2>Encuentranos aquí</h2>
             <iframe class="mapa"
@@ -64,8 +66,8 @@
 
     <!-- Seccion de informacion -->
 
-    <section class="infoseccion">
-        <h2>Información</h2>
+    <section class="infoseccion" id="informacion">
+        <h2 >Información</h2>
         <table class="tabla">
             <tr>
                 <th>Idioma</th>
@@ -107,7 +109,7 @@
 
 </body>
     <footer>
-    <form class="formulario">
+    <form class="formulario" id="formulario">
         <h3 class="titulo_formulario">Inscribete Aquí</h3>
         <input  class="formulario_input" type="email" required placeholder="Correo electronico">
         

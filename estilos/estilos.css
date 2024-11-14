@@ -48,8 +48,11 @@ body {
 .infoseccion h2 {
     font-weight: bold;
     margin-bottom: 10px;
+    color: rgb(8, 8, 8);
+    background-color: #00daf7;
+    font-size: 25px;
+    display: inline-block;
 }
-
 
 /* Estilos de tabla */
 .tabla {
@@ -57,17 +60,16 @@ body {
     margin: 0 auto;
     border-collapse: collapse;
     font-size: 16px;
+    background-color: rgb(255, 255, 255);
 }
-
 .tabla th,.tabla td {
     border: 1px solid black;
     padding: 8px;
     text-align: center;
 }
-
 .tabla th {
     background-color: green;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .tabla tr:nth-child(even) {
@@ -99,7 +101,6 @@ section div img{
     text-align: center;
     color: white;
 }
-
 .title2{
     color: black;
 }
@@ -160,7 +161,6 @@ body {
     border-radius: 40px;
 }
 
-
 .contenido-ventajas h2 {
     font-size: 40px; 
     color: #000000; 
@@ -184,9 +184,7 @@ body {
     background-blend-mode: overlay; /* Mezcla de fondo */
 }
 
-
 /* Estilos footer*/
-
 footer{
     background-color: rgb(0, 0, 0, 0.719);
     
