@@ -1,7 +1,7 @@
 /* Estilo general*/
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-image: url(https://londresando.com/wp-content/uploads/sites/15/2022/03/big-ben-londres.jpeg);
     background-size: cover;
     background-position: center; /* Centra la imagen de fondo */
@@ -14,15 +14,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(0, 0, 0, 0.719);
-    /*background-color: #333; /* Fondo oscuro */
+    background-color: #3498db; 
     padding: 10px 20px;
 }
 /* Logo */
 .logo img {
     height: 150px; /* tamaño del logo */
     margin-left: 50px;
-    transition: transform 0.3s ease; /* movimiento suave */
+    transition: transform 0.3s ease;
 }
 .logo img:hover {
     transform: translateY(-10px); /* Mover hacia arriba 10px */
@@ -37,65 +36,102 @@ body {
 
 .nav a {
     color: rgb(255, 255, 255); /* Color de texto blanco */
-    text-decoration: none; /* Sin subrayado */
+    text-decoration: none; 
     font-size: 20px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    position: relative; /* Para la línea decorativa */
+    position: relative; 
     padding: 5px 0; /* Espaciado vertical */
     transition: transform 0.3s ease, color 0.3s ease; /* Animación suave */
 }
 
 .nav a:hover,.nav a.active {
-    color: #00c3ff; /* Cambiar color del texto */
-    transform: translateY(-5px); /* Mover hacia arriba */
+    color: #000000; 
+    transform: translateY(-5px); /*  hacia arriba */
 }
 .nav a:hover::after,.nav a.active::after {
     content: ""; /* Línea decorativa */
     position: absolute;
-    bottom: 0; /* Línea debajo del texto */
+    bottom: 0; 
     left: 0;
     width: 100%;
-    height: 2px; /* Grosor de la línea */
-    background-color: #00c3ff; /* Color de la línea */
+    height: 2px; /* Grosor*/
+    background-color: #000000; 
 }
 
 /* Sección de información */
-.infoseccion {
+.info-section {
+    padding: 30px;
+    background: #ffffffb2; 
+    max-width: 1200px;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Título de la sección */
+.info-section h1 {
     text-align: center;
-    padding: 20px;
-    font-family: Arial, sans-serif;
+    color: #1abc9c; 
+    font-size: 36px;
+    margin-bottom: 20px;
 }
 
-.infoseccion h2 {
-    font-weight: bold;
-    margin-bottom: 10px;
-    color: rgb(8, 8, 8);
-    background-color: #00daf7;
-    font-size: 25px;
-    display: inline-block;
+/* Párrafo introductorio */
+.info-section p {
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    margin-bottom: 30px;
 }
 
-/* Estilos de tabla */
-.tabla {
-    width: 80%;
-    margin: 0 auto;
+/* Estilo de la tabla */
+.info-table {
+    width: 100%;
     border-collapse: collapse;
-    font-size: 16px;
-    background-color: rgb(255, 255, 255);
-}
-.tabla th,.tabla td {
-    border: 1px solid black;
-    padding: 8px;
-    text-align: center;
-}
-.tabla th {
-    background-color: green;
-    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.9);
 }
 
-.tabla tr:nth-child(even) {
-    background-color: #dbdbdb;
+/* Estilos de las celdas de la tabla */
+.info-table th, .info-table td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #b4b4b4;
+}
+
+/* Encabezados de las tablas */
+.info-table th {
+    background-color: #1abc9c; 
+    color: white;
+    font-size: 18px;
+}
+
+/* Filas alternas de la tabla */
+.info-table tbody tr:nth-child(even) {
+     background-color: #f9f9f9; 
+}
+
+/* Hover en las filas de la tabla */
+.info-table tbody tr:hover {
+    background-color: #e2f7e4;
+    transform: scale(1.02);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    
+}
+
+/* Celda de descripción */
+.info-table td {
+    font-size: 14px;
+    color: #333;
+}
+
+/* Estilo de las listas dentro de la tabla */
+.info-table ul {
+    margin: 0;
+    padding-left: 20px;
 }
 
 /*seccion1*/
